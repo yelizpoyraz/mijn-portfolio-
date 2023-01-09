@@ -1,0 +1,128 @@
+body {
+    background-color: #F1F1EF;
+}
+
+html{
+    font-family: "Trebuchet MS", Helvetica, sans-serif	
+      
+  }
+
+
+  ul {  
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 20px;  
+    }  
+    
+  h1 {
+    color: #3894a3
+}
+
+.textdecoration-none {
+  text-decoration: none;
+}
+
+a{
+  color: #2F414F;
+}
+
+
+.ikiyebolme {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 200px ;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "bolum1 bolum2";
+}
+
+.bolum1 {
+  grid-area: bolum1;
+}
+
+.bolum2 {
+  grid-area: bolum2;
+  padding-top: 50px;
+}
+
+.bolum2 li{
+  padding: 5px;
+  
+}
+
+.bolum2 li *{
+  font-size: 30px;
+}
+
+
+html {
+  background-color: #F1F1EF;
+}
+
+html{
+  font-family: "Trebuchet MS", Helvetica, sans-serif	
+    
+}
+
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+nav ul li a{
+  color: #2F414F;
+  display: block;
+  padding: 15px 25px;
+  border-radius: 1px;
+}
+
+nav ul li a:hover{
+  color: #2F414F;
+}
+
+
+.page-footer {
+  margin-top: 120px;
+  height: auto;
+  background-color: #C7DAD4;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-navbar {
+  display: inline-block;
+  margin-left: 170px;
+  vertical-align: top;
+}
+.footer-navbar ul {
+  display: inline-block;
+  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.footer-navbar li {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+.footer-navbar a {
+  display: inline-block;
+  color: #2F414F;
+  text-decoration: none;
+  width: 70px;
+}
+
+#footer-text {
+  font-size: 20px;
+  text-align: center;
+  color: #3894a3;
+  margin-bottom: 0;
+}
+
